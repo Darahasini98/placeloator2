@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="Requesting to find the location?"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Tap the locator button to find your current location on map if you enter any location manually then the location is found on map"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="NOTE: IF THE LOCATION IS NOT TRACED OF ANY PLACE THAT YOU ENTERED IN SEARCH BAR,IT MAY BE DUE TO NO INTERNET CONNECTION OR LOCATION ACCESS OR THAT PLACE THAT MAY NOT BE THERE IN GOOGLE MAPS"/>
+</LinearLayout>
